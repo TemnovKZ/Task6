@@ -10,7 +10,7 @@ switchToggle.onclick = () => {
         }
     }else{
         for(var k = 0; k < price.length; k++) {
-            price[k].innerText = Math.floor(price[k].innerHTML / 12 / (100 - sale) * 100 - 1) +".99";
+            price[k].innerText = price[k].innerHTML / 12 / (100 - sale) * 100;
         }
     }
 }
