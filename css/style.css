@@ -78,7 +78,7 @@ body {
   font-weight: 700;
   color: #6E728E;
   background: #F7F7FE;
-  background-image: url(/img/bg-right.png);
+  background-image: url(../img/bg-right.png);
   background-repeat: no-repeat;
   background-position: right top;
 }
@@ -86,7 +86,7 @@ body {
 /*------------------------------------------------------*/
 .bg {
   height: 100vh;
-  background-image: url(/img/bg-left.png);
+  background-image: url(../img/bg-left.png);
   background-repeat: no-repeat;
   background-position: left bottom;
 }
